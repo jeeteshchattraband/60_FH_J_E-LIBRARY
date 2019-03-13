@@ -1,0 +1,124 @@
+.sidemenu
+{
+     position: fixed;
+
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    background-color: #303030;
+}
+
+.parent{
+top: 0px;
+    margin-left: 250px;
+    margin-top: 0px;
+    background-color: blue;
+}
+
+.maincontent
+{
+    position: relative;
+    width:100%;
+    /* padding-left must be the same as sidebar width */
+    /* This could be anything, content should scroll vertical */
+  background-color: #202020;
+  top: 50px;
+   
+
+}
+.list
+{
+margin-top: 30px;
+background-color: #202020;
+}
+body,html{
+    background-color: #202020;
+}
+.item{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+    
+   
+    border-radius:0px;
+    border-width: 0px;
+    color:#FDD736;
+    background-color: #080808;
+    /*opacity: 0.8;*/
+  
+
+    
+}
+
+.itemyellow
+{
+background-color: #FDD736;
+ height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius:0px;
+    border-width: 0px;
+    color: black;
+    
+
+}
+
+.item:hover{
+
+    background-color: #FDD736;
+    color:#000000;
+    
+  
+
+    
+}
+.itemyellow:hover{
+
+    background-color: #FDD736;
+    color:#000000;
+    
+  
+
+    
+}
+/*.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}*/
+
+/*.po
+{
+    color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  font-size:20px;
+  font-weight: bold;
+  
+}*/
+button:active, .button:active, button:focus, .button:focus, button:hover, .button:hover{
+    border:none !important;
+    outline:none !important;
+}
+
+
+.item:hover {
+   background-color: #FDD736;
+    color:#000000;
+     border-color: transparent;
+}
+
+.item :active:hover {
+      background-color: #FDD736;
+    color:#000000;
+     border-color: transparent;
+}
+.item:focus {
+       color:#FDD736;
+    background-color: #080808;
+   border-color: transparent;
+}
